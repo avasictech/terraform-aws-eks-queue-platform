@@ -1,0 +1,11 @@
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+crash.log
+.idea/
+.DS_Store
+__pycache__/
+# Lock files are committed only for the root example
+modules/**/.terraform.lock.hcl

@@ -1,0 +1,5 @@
+region            = "eu-central-1"
+name              = "queue-platform"
+api_image         = "ghcr.io/<you>/queue-platform-api:0.1.0"
+worker_image      = "ghcr.io/<you>/queue-platform-worker:0.1.0"
+api_allowed_cidrs = ["203.0.113.10/32"]
